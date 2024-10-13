@@ -14,6 +14,7 @@ model User {
   email          String    @unique
   hashedPassword String
   createdAt      DateTime  @default(now())
+  tasks          Task[] @relation("UserTasks")
   routines       Routine[] @relation("UserRoutines")
 }
 
@@ -36,4 +37,18 @@ model Habit {
   createdAt   DateTime @default(now())
   routine     Routine  @relation(fields: [routineId], references: [id], name: "RoutineHabits")
   routineId   String   @db.ObjectId 
+}
+
+
+
+model Task {
+  id          String   @id @default(auto()) @map("_id") @db.ObjectId
+  title       String
+  description String
+  priority    String
+  tag         String
+  deadline    String
+  status      String
+  userId      String
+  user        User     @relation(fields: [userId], references: [id], name: "UserTasks")
 }

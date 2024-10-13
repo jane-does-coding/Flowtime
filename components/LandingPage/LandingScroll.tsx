@@ -19,7 +19,7 @@ export function LandingScroll() {
 				}
 			>
 				<Image
-					src={`/logo.png`}
+					src={`/banner.png`}
 					alt="hero"
 					height={720}
 					width={1400}

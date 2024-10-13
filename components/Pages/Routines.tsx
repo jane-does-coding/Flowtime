@@ -18,6 +18,9 @@ const Routines = ({ routines }: any) => {
 				<h2 className="nunito text-[2.8rem] text-neutral-800 mb-4 pt-12">
 					Your Routines
 				</h2>
+				<div className="w-full mt-4 mb-6 bg-gradient-to-r from-neutral-300 to bg-neutral-200/0 py-2 pl-6 text-[1.3rem] border-l-2 border-neutral-400">
+					Let your day flow
+				</div>
 				<div
 					className={`grid gap-6 gap-y-4 ${
 						isOpen ? "grid-cols-2" : "grid-cols-3"

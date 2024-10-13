@@ -36,6 +36,15 @@ const UserMenu = ({ currentUser }: { currentUser?: User | null }) => {
 						{currentUser ? (
 							<>
 								<MenuItem onClick={() => router.push("/")} label="Home" />
+								<MenuItem
+									onClick={() => router.push("/routines")}
+									label="Routines"
+								/>
+								<MenuItem onClick={() => router.push("/tasks")} label="Tasks" />
+								<MenuItem
+									onClick={() => router.push("/pomodoro")}
+									label="Pomodoro"
+								/>
 								<MenuItem onClick={() => signOut()} label="Logout" />
 							</>
 						) : (

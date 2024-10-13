@@ -24,7 +24,7 @@ const Sidebar = ({ isOpen, setIsOpen }: any) => {
 						: "w-[5rem] px-2 pt-8 pb-6"
 				} bg-neutral-300/50 border-r-2  transition-all border-neutral-300 h-screen flex flex-col justify-center gap-2 fixed`}
 			>
-				<button>
+				<a href="/routines">
 					<div
 						className={`flex items-center justify-start  hover:bg-neutral-400/25 rounded-lg relative text-neutral-600 transition-all mx-auto ${
 							isOpen ? " px-8 py-6 bg-neutral-400/15" : "w-fit p-0 mb-2"
@@ -48,7 +48,7 @@ const Sidebar = ({ isOpen, setIsOpen }: any) => {
 							</div>
 						</div>
 					</div>
-				</button>
+				</a>
 
 				<button onClick={() => setIsOpen(!isOpen)}>
 					<div
@@ -70,7 +70,7 @@ const Sidebar = ({ isOpen, setIsOpen }: any) => {
 						)}
 					</div>
 				</button>
-				<button>
+				<a href="/routines">
 					<div
 						className={`flex items-center justify-start bg-neutral-400/15 hover:bg-neutral-400/35 rounded-lg relative text-neutral-600 transition-all mx-auto ${
 							isOpen ? " px-8 py-2" : "w-fit px-3 py-3"
@@ -85,8 +85,8 @@ const Sidebar = ({ isOpen, setIsOpen }: any) => {
 						</h3>
 						<FaSun className="" size={32} />
 					</div>
-				</button>
-				<button>
+				</a>
+				<a href="/tasks">
 					<div
 						className={`flex items-center justify-start bg-neutral-400/15 hover:bg-neutral-400/35 rounded-lg relative text-neutral-600 transition-all mx-auto ${
 							isOpen ? " px-8 py-2" : "w-fit px-3 py-3"
@@ -101,8 +101,8 @@ const Sidebar = ({ isOpen, setIsOpen }: any) => {
 						</h3>
 						<FaBoxOpen className="" size={32} />
 					</div>
-				</button>
-				<button>
+				</a>
+				<a href="/pomodoro">
 					<div
 						className={`flex items-center justify-start bg-neutral-400/15 hover:bg-neutral-400/35 rounded-lg relative text-neutral-600 transition-all mx-auto ${
 							isOpen ? " px-8 py-2" : "w-fit px-3 py-3"
@@ -117,7 +117,7 @@ const Sidebar = ({ isOpen, setIsOpen }: any) => {
 						</h3>
 						<LuClock2 className="" size={32} />
 					</div>
-				</button>
+				</a>
 				<button>
 					<div
 						className={`flex items-center justify-start bg-neutral-400/15 hover:bg-neutral-400/35 rounded-lg relative text-neutral-600 transition-all mx-auto ${

@@ -140,12 +140,9 @@ const HabitModal = ({ routines }: any) => {
 					<input
 						type="text"
 						value={habit.icon}
-						onChange={(e) =>
-							updateHabit(index, "icon", e.target.value.slice(0, 1))
-						}
+						onChange={(e) => updateHabit(index, "icon", e.target.value)}
 						placeholder="Icon"
 						className="text-neutral-800 w-full p-3 pl-4 bg-neutral-400/20 border-2 border-neutral-400/75 rounded-md"
-						maxLength={1}
 						required
 					/>
 				</div>

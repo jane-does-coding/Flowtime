@@ -10,6 +10,7 @@ import LoginModal from "@/components/Modals/LoginModal";
 import RoutineModal from "@/components/Modals/RoutineModal";
 import HabitModal from "@/components/Modals/HabitModal";
 import getRoutines from "./actions/getRoutines";
+import TaskModal from "@/components/Modals/TaskModal";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -44,6 +45,7 @@ export default async function RootLayout({
 				<RegisterModal />
 				<LoginModal />
 				<RoutineModal />
+				<TaskModal />
 				<HabitModal routines={routines} />
 				<Navbar currentUser={currentUser} />
 				{children}
