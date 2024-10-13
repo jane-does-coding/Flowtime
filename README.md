@@ -3,7 +3,7 @@
 Set the flow of your day with flowtime routine screationg and task mannagment!
 
 ## Screenshots
-<img width="33%" alt="Screenshot 2024-10-13 at 3 38 34 PM" src="https://github.com/user-attachments/assets/11d02cab-04f8-4d88-af37-3542610f89a5"><img width="33%" alt="Screenshot 2024-10-13 at 2 37 55 PM" src="https://github.com/user-attachments/assets/8b893500-2451-4830-9d6d-3acab7d859a1"><img width="33%" alt="Screenshot 2024-10-13 at 2 41 20 PM" src="https://github.com/user-attachments/assets/909ad948-b368-4669-b8f0-32b85e4f01eb">
+<img width="33%" alt="Screenshot 2024-10-13 at 3 38 34 PM" src="https://github.com/user-attachments/assets/11d02cab-04f8-4d88-af37-3542610f89a5"><img width="33%" alt="Screenshot 2024-10-13 at 2 41 20 PM" src="https://github.com/user-attachments/assets/909ad948-b368-4669-b8f0-32b85e4f01eb"><img width="33%" alt="Screenshot 2024-10-13 at 2 37 55 PM" src="https://github.com/user-attachments/assets/8b893500-2451-4830-9d6d-3acab7d859a1">
 
 
 ## Color Reference
