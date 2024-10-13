@@ -33,6 +33,11 @@
 	height: 100%;
 }
 
+.char {
+	transform: translateY(215px);
+	transition: transform 0.5s;
+}
+
 .box {
 	display: flex;
 	flex-direction: column;

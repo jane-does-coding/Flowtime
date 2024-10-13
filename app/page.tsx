@@ -1,5 +1,15 @@
+import Title from "@/components/LandingPage/Title";
 import getHabits from "./actions/getHabits";
 import getRoutines from "./actions/getRoutines";
+import { LandingScroll } from "@/components/LandingPage/LandingScroll";
+import { BentoGridDemo } from "@/components/LandingPage/BentoGrid";
+import { EndText } from "@/components/LandingPage/EndText";
+import { MovingBorderDemo } from "@/components/LandingPage/GetStrartedButton";
+/* import { BentoGridDemo } from "./components/LandingPage/BentoGrid";
+import { EndText } from "./components/LandingPage/EndText";
+import { LandingScroll } from "./components/LandingPage/LandingScroll";
+import Title from "./components/LandingPage/Title";
+import { MovingBorderDemo } from "./components/LandingPage/GetStrartedButton"; */
 
 export default async function Home() {
 	const routines = await getRoutines();
@@ -9,9 +19,12 @@ export default async function Home() {
 
 	return (
 		<div className="">
-			<h1 className="text-9xl text-white jura text-center mt-36">
-				Auth Template
-			</h1>
+			<div className="">
+				<br />
+				<Title />
+				<LandingScroll />
+				<BentoGridDemo />
+			</div>
 		</div>
 	);
 }
