@@ -1,44 +1,53 @@
-# Auth Template
-<img width="50%" alt="Screenshot 2024-05-28 at 4 28 29 PM" src="https://github.com/YevheniiaSimaka/Nextjs-Auth-Template/assets/112284703/42e7a736-254d-4883-8020-49616e32c3cd"><img width="50%" alt="Screenshot 2024-05-28 at 4 28 36 PM" src="https://github.com/YevheniiaSimaka/Nextjs-Auth-Template/assets/112284703/3b3d9610-66d9-4fac-9747-00c1b6cc1608">
+# Flowtime
+
+## Technologies used
+
+[![Technologies](https://skillicons.dev/icons?i=ts,tailwind,prisma,mongodb,nextjs,react,github)](https://skillicons.dev)
+
+## Demo
 
 ## Functionality
 
-- Signup
-- Login
-- Logout
-- Strong Password check
+- Authentication with password encryption
+- Create Tasks
+- Edit Tasks
+- Delete Tasks
+- Sort Tasks
+- Search Tasks
+- Grid/List View
+- Pomodoro Timer
+- Add simple todos
+- Delete simple todos
 
-
-## Usage
+## Run Locally
 
 Clone the project
 
+```bash
+  git clone https://github.com/jane-does-coding/Flowtime
 ```
-git clone https://github.com/YevheniiaSimaka/Nextjs-Auth-Template
+
+Go to the project directory
+
+```bash
+  cd my-project
 ```
 
 Install dependencies
 
-```
-npm i
-```
-
-Create .env
-
-```
-DATABASE_URL=
-NEXTAUTH_SECRET=
+```bash
+  npm i
 ```
 
-Set up prisma
+Add .env
 
-```
-npx prisma generate
-npx prisma db push
+```bash
+  DATABASE_URL=
+  NEXTAUTH_SECRET=
 ```
 
-Run it
+Start the server
 
-```
-npm run dev
+```bash
+  npm run dev
 ```
