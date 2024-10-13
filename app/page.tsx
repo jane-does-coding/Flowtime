@@ -23,7 +23,8 @@ export default async function Home() {
 				<br />
 				<Title />
 				<LandingScroll />
-				<BentoGridDemo />
+				{/* 				<BentoGridDemo />
+				 */}{" "}
 			</div>
 		</div>
 	);
