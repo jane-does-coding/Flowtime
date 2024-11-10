@@ -1,0 +1,57 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id             String    @id @default(auto()) @map("_id") @db.ObjectId
+  name           String
+  username       String
+  email          String    @unique
+  hashedPassword String
+  createdAt      DateTime  @default(now())
+  tasks          Task[] @relation("UserTasks")
+  routines       Routine[] @relation("UserRoutines")
+}
+
+model Routine {
+  id        String   @id @default(auto()) @map("_id") @db.ObjectId
+  title     String  
+  icon        String   
+  createdAt DateTime @default(now())
+  user      User     @relation(fields: [userId], references: [id], name: "UserRoutines")
+  userId    String   @db.ObjectId 
+  habits    Habit[]   @relation("RoutineHabits") 
+    order     Int       @default(0) // New field to track routine order
+
+}
+
+model Habit {
+  id          String   @id @default(auto()) @map("_id") @db.ObjectId
+  title       String   
+  description String?  
+  time        String   
+  icon        String   
+  createdAt   DateTime @default(now())
+  routine     Routine  @relation(fields: [routineId], references: [id], name: "RoutineHabits")
+  routineId   String   @db.ObjectId 
+    order       Int      @default(0)  // New field to track habit order
+}
+
+
+
+model Task {
+  id          String   @id @default(auto()) @map("_id") @db.ObjectId
+  title       String
+  description String
+  priority    String
+  tag         String
+  deadline    String
+  status      String
+  userId      String
+  user        User     @relation(fields: [userId], references: [id], name: "UserTasks")
+}
