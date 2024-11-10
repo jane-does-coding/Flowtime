@@ -4,7 +4,11 @@ Set the flow of your day with flowtime routine screationg and task mannagment!
 
 ## Screenshots
 
-<img width="33%" alt="Screenshot 2024-10-13 at 3 38 34 PM" src="https://github.com/user-attachments/assets/11d02cab-04f8-4d88-af37-3542610f89a5"><img width="33%" alt="Screenshot 2024-10-13 at 2 41 20 PM" src="https://github.com/user-attachments/assets/909ad948-b368-4669-b8f0-32b85e4f01eb"><img width="33%" alt="Screenshot 2024-10-13 at 2 37 55 PM" src="https://github.com/user-attachments/assets/8b893500-2451-4830-9d6d-3acab7d859a1">
+<img width="50%" alt="Screenshot 2024-11-08 at 3 36 30 PM" src="https://github.com/user-attachments/assets/3398add9-3b19-4f6e-a150-f151576b6686"><img width="50%" alt="about" src="https://github.com/user-attachments/assets/ca44dfc2-96cc-4ee1-8ffa-ffdac7b5e5eb">
+<img width="50%" alt="register" src="https://github.com/user-attachments/assets/bdd38634-6c42-43b6-a6c9-91b320d559c2"><img width="50%" alt="profile" src="https://github.com/user-attachments/assets/ad7b0902-0385-411a-881d-327931b321c2">
+<img width="50%" alt="create-routine" src="https://github.com/user-attachments/assets/dedd4ff7-0b0b-4bce-a15f-384c70f4b619"><img width="50%" alt="habits" src="https://github.com/user-attachments/assets/b9f984cb-109c-4de0-9726-59127c9d1a44">
+
+
 
 ## Color Reference
 
